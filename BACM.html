@@ -641,26 +641,89 @@ map.on('move', function() { d3.select('#gu2').property('value',Math.round(map.ge
 
 
 }
+setTimeout(function(){add_milemarker()},2500)
 
-/*
-const el = document.createElement('div');
-    el.className = 'marker';
-   el.style.backgroundImage = waypoint.icon;
-    el.style.width = '32px';
-    el.style.height = '32px';
-    el.style.backgroundSize = '100%';
-for(i=0;i<26;i++)
+function add_milemarker()
 {
+// Example list of coordinates (replace with your actual coordinates)
+var coord_mm = [
     
+];
 
-    // Create a new marker with the custom element
-  temp=  new mapboxgl.Marker(el,{ offset: [0, -16]})
-        .setLngLat(waypoint.coordinates)
-        .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-            .setText(waypoint.name))
-        .addTo(map);
-        markers.push(temp)
+for (u=1;u<27;u++){
+    temp = Math.round(u*conv*0.04)/0.04
+console.log(temp)
+    coord_mm.push(coordinates.mara[Math.round(temp/25)])
 }
-*/
+console.log(coord_mm)
+// GeoJSON format to create circle features for each coordinate, with numbered properties
+var geojson = {
+    'type': 'FeatureCollection',
+    'features': coord_mm.map(function(coord, index) {
+        return {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': coord
+            },
+            'properties': {
+                'number': index + 1 // Assign each point a number based on its index
+            }
+        };
+    })
+};
+
+// Add the GeoJSON source with your coordinates
+map.addSource('circle-source5', {
+    'type': 'geojson',
+    'data': geojson
+});
+
+// Add a circle layer to display circles at each coordinate
+map.addLayer({
+    'id': 'circle-layer5',
+    'type': 'circle',
+    'source': 'circle-source5',
+    'paint': {
+        'circle-radius': 15, // Adjust the radius as needed
+        'circle-color': 'black', // Red color for the circle
+        'circle-opacity': 0.6, // Semi-transparent
+        'circle-stroke-width': 2,
+        'circle-stroke-color': '#000000'
+    }
+});
+
+// Create a popup instance that will be used for tooltips
+var popup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+});
+
+// Add event listeners for hovering over circles
+map.on('mouseenter', 'circle-layer5', function (e) {
+    // Change the cursor to a pointer when the mouse is over the circle
+    map.getCanvas().style.cursor = 'pointer';
+
+    // Get the feature properties (the number of the circle)
+    var coord_mm = e.features[0].geometry.coordinates.slice();
+    var description = + e.features[0].properties.number + " miles"; // Tooltip content (number)
+
+    // Set the popup at the feature's location
+    popup.setLngLat(coord_mm)
+        .setHTML(description)
+        .addTo(map);
+});
+
+map.on('mouseleave', 'circle-layer5', function () {
+    // Change the cursor back to the default
+    map.getCanvas().style.cursor = '';
+
+    // Remove the popup when the mouse leaves the circle
+    popup.remove();
+});
+
+
+}
+
   </script>
   </html>
