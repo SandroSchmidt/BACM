@@ -14,6 +14,16 @@
   margin-left: auto; 
   margin-right: auto;
 }
+.text-marker {
+            background-color: white;
+            padding: 5px;
+            border-radius: 3px;
+            font-size: 14px;
+            font-weight: bold;
+            transform: rotate(45deg); /* Rotate the text by 45 degrees */
+            transform-origin: center; /* Keep the rotation centered */
+        }
+
 </style>
 <body>
     <button id="playbut" onclick="play = !play;
@@ -627,7 +637,8 @@ function initialise_map()  {
         },
         'paint': {
             'line-color': 'black',  // Color of the line
-            'line-width': 3,       // Width of the line
+            'line-width': 3,  
+            'line-opacity':0.5,     // Width of the line
             'line-dasharray': [3, 2]  // Define the dash pattern (2px line, 4px gap)
         }
     });
@@ -658,7 +669,8 @@ markers =[]
 });
 
 map.on('zoom', function() { d3.select('#gu3').property('value',Math.round(map.getZoom()*10)/10)
-
+toggleMarkers();
+if(map.getZoom()>13){console.log("wd")}
 /*
 if(map.getZoom() >14){linesize = 8}else{linesize=3}
 for(i=0;i<linienliste.length;i++){
@@ -679,12 +691,15 @@ function add_milemarker()
 var coord_mm = [
     
 ];
-
+textMarkersData =[]
 for (u=1;u<27;u++){
     temp = Math.round(u*conv*0.04)/0.04
 console.log(temp)
     coord_mm.push(coordinates.mara[Math.round(temp/25)])
+    textMarkersData.push({coordinates:coordinates.mara[Math.round(temp/25)],text: u +" miles"})
 }
+
+/*
 console.log(coord_mm)
 // GeoJSON format to create circle features for each coordinate, with numbered properties
 var geojson = {
@@ -718,7 +733,7 @@ map.addLayer({
         'circle-radius': 15, // Adjust the radius as needed
         'circle-color': 'blue', // Red color for the circle
         'circle-opacity': 0.25, // Semi-transparent
-        'circle-stroke-width': 2,
+        'circle-stroke-width': 0,
         'circle-stroke-color': '#000000'
     }
 });
@@ -751,9 +766,42 @@ map.on('mouseleave', 'circle-layer5', function () {
     // Remove the popup when the mouse leaves the circle
     popup.remove();
 });
+*/
+//---------------
+ textMarkers = [];
+textMarkersData.forEach(data => {
+        // Create a div element for each text marker
+        const textMarker = document.createElement('div');
+        textMarker.className = 'text-marker';
+        textMarker.textContent = data.text;
+
+        // Create and add the marker to the map
+        const marker = new mapboxgl.Marker(textMarker)
+            .setLngLat(data.coordinates)
+            .addTo(map);
+
+        // Store the marker in the array for later control
+        textMarkers.push(marker);
+    });
 
 
 }
-
+function toggleMarkers() {
+        const zoom = map.getZoom();
+        textMarkers.forEach(marker => {
+            if (zoom > 14) {
+                marker.getElement().style.display = 'block';
+            } else {
+                marker.getElement().style.display = 'none';
+            }
+        });
+        markers.forEach(marker => {
+            if (zoom > 12) {
+                marker.getElement().style.display = 'block';
+            } else {
+                marker.getElement().style.display = 'none';
+            }
+        });
+    }
   </script>
   </html>
