@@ -257,13 +257,13 @@ key= "delay"
 const value = localStorage.getItem(key);
 
 // Check if the value exists
-delay={mara:(7*60+15)}
+delay={mara:(7*60+30)}
 if (value !== null) {
 
   delay = JSON.parse(value)
 
 } else {
-    delay={mara:(7*60+15)}
+    delay={mara:(7*60+30)}
     localStorage.setItem(key, JSON.stringify(delay));
 
 
