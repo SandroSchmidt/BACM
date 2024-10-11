@@ -683,7 +683,7 @@ map.on('move', function() { d3.select('#gu2').property('value',Math.round(map.ge
 
 
 }
-setTimeout(function(){add_milemarker()},2500)
+setTimeout(function(){add_milemarker()},500)
 
 function add_milemarker()
 {
@@ -783,7 +783,7 @@ textMarkersData.forEach(data => {
         // Store the marker in the array for later control
         textMarkers.push(marker);
     });
-
+    toggleMarkers()
 
 }
 function toggleMarkers() {
@@ -796,7 +796,7 @@ function toggleMarkers() {
             }
         });
         markers.forEach(marker => {
-            if (zoom > 12) {
+            if (zoom > 13) {
                 marker.getElement().style.display = 'block';
             } else {
                 marker.getElement().style.display = 'none';
