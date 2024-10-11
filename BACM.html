@@ -31,6 +31,7 @@ realtime = false
 
 
      <button id="realbutton" onclick="realtime = !realtime;
+     console.log(tim)
         if(!realtime){d3.select('#realbutton').text('realtime')
          zeitgewahlt(Math.round(tim) )
         }else{d3.select('#realbutton').text('stop')
@@ -389,7 +390,7 @@ play = false
                                        now = new Date()
                                       tim2 = (now.getHours() * 60) +now.getMinutes()
                                   //      tim -= 120 
-                                    if (tim2 > 359.9 && tim2 < 900.1 )  {  zeitgewahlt(Math.round(tim2) )}
+                                    if (tim2 > 359.9 && tim2 < 1095.1 )  {  zeitgewahlt(Math.round(tim2) )}
 }
                             },50)
                                 
