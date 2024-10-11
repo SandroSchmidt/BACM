@@ -103,7 +103,7 @@ realtime = false
            
                 <tr>
                     <td>marathon start:</td>
-                    <td><input id="maratimset" type="time" value="12:01" onchange="delay.mara = convertTimeToMinutes(this.value);delay.maraslow = convertTimeToMinutes(this.value);delay.marafull = convertTimeToMinutes(this.value); zeitgewahlt(Math.round(tim));   localStorage.setItem(key, JSON.stringify(delay));"/></td>
+                    <td><input id="maratimset" type="time" value="12:01" onchange="delay.mara = convertTimeToMinutes(this.value); zeitgewahlt(Math.round(tim));   localStorage.setItem(key, JSON.stringify(delay));"/></td>
                 </tr>
              
              
@@ -662,7 +662,7 @@ markers =[]
     // Create a new marker with the custom element
   temp=  new mapboxgl.Marker(el,{ offset: [0, -16]})
         .setLngLat(waypoint.coordinates)
-        .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+        .setPopup(new mapboxgl.Popup({ offset: 25 ,closeButton: false}) // add popups
             .setText(waypoint.name))
         .addTo(map);
         markers.push(temp)
