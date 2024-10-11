@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Chicago Marathon 2023</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-87.620793</longitude>
+<latitude>41.880844</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route2047966">
+<name><![CDATA[Chicago Marathon 2023]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-87.620793,41.880844,182
+-87.620793,41.880844,182
+-87.620794,41.880871,182
+-87.620711,41.880989,182
+-87.620716,41.881332,181
+-87.620696,41.881572,181
+-87.620615,41.882167,181
+-87.620558,41.882623,181
+-87.620542,41.883341,178
+-87.620548,41.884203,177
+-87.620603,41.884355,177
+-87.620628,41.887837,177
+-87.620625,41.887919,176
+-87.620571,41.888032,176
+-87.620343,41.889458,177
+-87.620397,41.889564,177
+-87.620229,41.890679,179
+-87.620207,41.890998,179
+-87.620247,41.891803,179
+-87.620261,41.891803,179
+-87.620261,41.891803,179
+-87.623919,41.891733,179
+-87.624238,41.891729,179
+-87.628071,41.891667,178
+-87.628071,41.891658,178
+-87.628071,41.891658,178
+-87.628032,41.889259,180
+-87.627957,41.88917,180
+-87.627945,41.889034,180
+-87.62794,41.887845,176
+-87.627892,41.886804,180
+-87.62789,41.885858,182
+-87.627936,41.885755,182
+-87.62789,41.884487,181
+-87.627869,41.883798,181
+-87.627814,41.882031,181
+-87.627756,41.880748,182
+-87.627695,41.878199,181
+-87.627683,41.878206,181
+-87.627683,41.878206,181
+-87.627695,41.878199,181
+-87.630756,41.878145,181
+-87.632242,41.878133,180
+-87.632261,41.878133,180
+-87.632261,41.878133,180
+-87.632242,41.878133,180
+-87.632262,41.879399,181
+-87.632283,41.880032,181
+-87.63235,41.881957,181
+-87.63245,41.884472,182
+-87.632405,41.884581,182
+-87.632384,41.885735,181
+-87.632393,41.88628,181
+-87.632415,41.886681,181
+-87.632497,41.886808,179
+-87.632499,41.886947,178
+-87.632506,41.88719,176
+-87.63252,41.887805,176
+-87.632523,41.887919,177
+-87.632548,41.888184,177
+-87.632621,41.888585,178
+-87.632638,41.889181,179
+-87.632637,41.89,179
+-87.632683,41.891523,179
+-87.632701,41.892421,179
+-87.632805,41.897029,179
+-87.633004,41.903886,180
+-87.633015,41.904238,181
+-87.633223,41.911171,181
+-87.633239,41.912584,182
+-87.633196,41.912907,182
+-87.633123,41.913,182
+-87.633123,41.913,182
+-87.633042,41.913071,182
+-87.632856,41.913169,182
+-87.632438,41.913334,181
+-87.631936,41.913451,181
+-87.63171,41.91347,181
+-87.631705,41.913398,181
+-87.631705,41.913398,181
+-87.63171,41.91347,181
+-87.631762,41.913923,181
+-87.631908,41.914232,181
+-87.632193,41.914544,181
+-87.632624,41.914952,182
+-87.632692,41.915046,182
+-87.632814,41.9154,182
+-87.632868,41.915526,182
+-87.632951,41.915654,182
+-87.633124,41.915868,182
+-87.633733,41.916428,182
+-87.633967,41.916724,181
+-87.634131,41.917006,181
+-87.634194,41.917169,182
+-87.634435,41.918361,181
+-87.634521,41.918689,182
+-87.634592,41.918876,182
+-87.63469,41.919062,182
+-87.634905,41.919332,182
+-87.635332,41.919747,182
+-87.63542,41.919862,182
+-87.635587,41.920188,181
+-87.635628,41.920359,181
+-87.635731,41.922,181
+-87.63578,41.923812,181
+-87.635849,41.92507,180
+-87.635907,41.925292,180
+-87.636058,41.925673,180
+-87.635989,41.925673,180
+-87.635989,41.925673,180
+-87.634154,41.925695,179
+-87.633712,41.925737,179
+-87.633712,41.925737,179
+-87.633621,41.925745,178
+-87.634133,41.926675,178
+-87.634556,41.927391,179
+-87.635446,41.928785,180
+-87.636354,41.930087,180
+-87.637067,41.93105,180
+-87.637539,41.931559,180
+-87.637787,41.931735,181
+-87.638681,41.932294,181
+-87.638969,41.932513,181
+-87.639172,41.932728,181
+-87.639306,41.932916,181
+-87.639329,41.932915,181
+-87.639329,41.932915,181
+-87.639306,41.932916,181
+-87.639351,41.934345,180
+-87.639517,41.939457,179
+-87.639537,41.940119,180
+-87.639574,41.941203,178
+-87.639585,41.941256,178
+-87.639585,41.941256,178
+-87.639642,41.941519,177
+-87.639768,41.941886,177
+-87.639975,41.942385,177
+-87.640525,41.943382,177
+-87.641624,41.945452,178
+-87.643484,41.948716,179
+-87.64452,41.950375,179
+-87.644732,41.950773,179
+-87.644867,41.951093,179
+-87.64499,41.951473,179
+-87.645037,41.951739,179
+-87.645043,41.952339,179
+-87.644999,41.953012,179
+-87.644999,41.953012,179
+-87.644996,41.953061,179
+-87.645437,41.953026,179
+-87.645598,41.952983,179
+-87.649638,41.952749,180
+-87.649638,41.95271,180
+-87.649638,41.95271,180
+-87.64961,41.95119,180
+-87.648768,41.949828,180
+-87.648365,41.949175,180
+-87.64682,41.946596,180
+-87.64481,41.94333,180
+-87.644512,41.942805,180
+-87.644512,41.942805,180
+-87.644494,41.942773,180
+-87.644475,41.942208,180
+-87.644463,41.941865,180
+-87.644212,41.934421,181
+-87.644249,41.934258,181
+-87.644291,41.934197,181
+-87.644291,41.934197,181
+-87.644534,41.933846,181
+-87.644695,41.933542,181
+-87.644906,41.932798,182
+-87.644851,41.932799,182
+-87.644851,41.932799,182
+-87.644906,41.932798,182
+-87.644827,41.932449,182
+-87.644717,41.932141,182
+-87.644577,41.931849,182
+-87.643564,41.93012,182
+-87.64343,41.93001,183
+-87.642943,41.929694,183
+-87.642878,41.929634,183
+-87.640623,41.925828,183
+-87.640452,41.925584,183
+-87.638229,41.921904,183
+-87.638289,41.921898,183
+-87.638289,41.921898,183
+-87.63896,41.921882,183
+-87.63896,41.921882,183
+-87.638938,41.921883,183
+-87.638584,41.911198,181
+-87.638584,41.911198,181
+-87.638583,41.911164,181
+-87.638106,41.91117,181
+-87.634697,41.911214,181
+-87.634694,41.911109,181
+-87.634694,41.911109,181
+-87.634474,41.903857,180
+-87.634202,41.896589,178
+-87.634134,41.893997,178
+-87.634111,41.893188,179
+-87.634054,41.891576,179
+-87.634,41.888107,177
+-87.634119,41.888054,177
+-87.634094,41.886808,179
+-87.634681,41.886816,179
+-87.634681,41.886816,179
+-87.635292,41.886817,178
+-87.635415,41.886784,178
+-87.635411,41.886472,180
+-87.635369,41.884272,181
+-87.635489,41.884272,181
+-87.635481,41.88331,181
+-87.635419,41.880633,181
+-87.635606,41.880631,181
+-87.635606,41.880631,181
+-87.636984,41.880614,179
+-87.638581,41.880608,176
+-87.64118,41.880567,181
+-87.642486,41.880542,180
+-87.644087,41.880532,178
+-87.64732,41.880496,178
+-87.647321,41.880506,178
+-87.647321,41.880506,178
+-87.647274,41.879197,178
+-87.647274,41.879197,178
+-87.647275,41.879212,178
+-87.66922,41.878849,181
+-87.676579,41.878744,180
+-87.676577,41.878705,180
+-87.676577,41.878705,180
+-87.676544,41.877455,180
+-87.676544,41.877455,180
+-87.676542,41.877407,180
+-87.676427,41.8774,180
+-87.669075,41.877512,180
+-87.664422,41.8776,179
+-87.664216,41.877586,179
+-87.65713,41.877721,180
+-87.651787,41.877791,179
+-87.647355,41.877879,179
+-87.647327,41.877859,179
+-87.64728,41.877859,179
+-87.64728,41.877859,179
+-87.647232,41.877859,179
+-87.647147,41.874842,179
+-87.647139,41.874737,179
+-87.647185,41.874628,179
+-87.64717,41.873563,180
+-87.647045,41.869671,180
+-87.647041,41.869578,180
+-87.647041,41.869578,180
+-87.64704,41.869543,180
+-87.650996,41.86948,180
+-87.651118,41.869508,180
+-87.651246,41.869508,180
+-87.657193,41.869403,180
+-87.661642,41.869336,180
+-87.661641,41.869308,180
+-87.661641,41.869308,180
+-87.66156,41.866979,180
+-87.661313,41.857988,182
+-87.661427,41.857954,182
+-87.661432,41.857815,182
+-87.661432,41.857815,182
+-87.661429,41.857879,182
+-87.660996,41.857885,182
+-87.660939,41.857962,182
+-87.657555,41.858023,182
+-87.647727,41.858166,181
+-87.646862,41.858168,181
+-87.646862,41.858168,181
+-87.646766,41.85817,181
+-87.646719,41.856813,181
+-87.64672,41.856724,181
+-87.64661,41.856726,181
+-87.646566,41.855336,180
+-87.646547,41.854601,180
+-87.646561,41.854595,180
+-87.646561,41.854595,180
+-87.647855,41.854002,180
+-87.647973,41.853926,180
+-87.648177,41.853923,180
+-87.648269,41.853884,179
+-87.648268,41.853861,179
+-87.650792,41.852707,179
+-87.650868,41.852665,179
+-87.650868,41.852665,179
+-87.650792,41.852707,179
+-87.650765,41.852678,179
+-87.646396,41.852747,180
+-87.641816,41.852799,178
+-87.641815,41.852758,178
+-87.641713,41.85272,178
+-87.640882,41.852738,177
+-87.640087,41.852775,177
+-87.63731,41.852816,182
+-87.636792,41.852859,181
+-87.636062,41.85288,181
+-87.635169,41.852881,181
+-87.634827,41.852866,181
+-87.633441,41.852769,181
+-87.632031,41.852788,181
+-87.63203,41.852768,181
+-87.63203,41.852768,181
+-87.63192,41.848892,178
+-87.631954,41.848326,177
+-87.631992,41.848123,177
+-87.632148,41.847751,178
+-87.632204,41.847538,182
+-87.632216,41.84713,182
+-87.632129,41.846473,179
+-87.631882,41.845526,181
+-87.631733,41.840454,178
+-87.63168,41.838242,178
+-87.631645,41.837286,178
+-87.631592,41.834526,177
+-87.631183,41.834532,176
+-87.631183,41.834532,176
+-87.629839,41.834541,181
+-87.627837,41.834597,182
+-87.627839,41.834662,182
+-87.626734,41.834682,181
+-87.626734,41.834682,181
+-87.626674,41.834684,181
+-87.62662,41.831452,181
+-87.626616,41.831006,181
+-87.626633,41.831006,181
+-87.626633,41.831006,181
+-87.626616,41.831006,181
+-87.621839,41.831063,181
+-87.621839,41.831063,181
+-87.621754,41.831064,181
+-87.621916,41.838364,181
+-87.621974,41.838449,181
+-87.622078,41.838507,181
+-87.622295,41.838538,181
+-87.622618,41.838549,181
+-87.622618,41.838549,181
+-87.622847,41.838573,181
+-87.622983,41.838634,181
+-87.623098,41.838725,181
+-87.623185,41.838823,181
+-87.623237,41.839165,181
+-87.623237,41.839165,181
+-87.623425,41.846062,180
+-87.623545,41.846943,180
+-87.62357,41.847338,180
+-87.623666,41.847479,179
+-87.623676,41.847665,177
+-87.623824,41.853306,180
+-87.623921,41.857891,181
+-87.623999,41.860518,182
+-87.624133,41.866983,180
+-87.62414,41.867398,180
+-87.624175,41.867398,180
+-87.624175,41.867398,180
+-87.62414,41.867398,180
+-87.622676,41.867415,181
+-87.622559,41.867554,181
+-87.621937,41.867579,181
+-87.620415,41.867594,183
+-87.620418,41.86763,182
+-87.620418,41.86763,182
+-87.620483,41.868593,184
+-87.620526,41.870303,183
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-87.620793,41.880844,182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on S]]></name>
+<description><![CDATA[Start on South Columbus Drive]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.620793,41.880844,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto South Columbus Drive]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.620794,41.880871,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto East Grand Avenue]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.620247,41.891803,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto North State Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.628071,41.891667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left ]]></name>
+<description><![CDATA[Keep left onto North State Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.628032,41.889259,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.627695,41.878199,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto West Jackson Boulevard]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.627695,41.878199,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto South LaSalle Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.632242,41.878133,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto North LaSalle Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.63245,41.884472,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left ]]></name>
+<description><![CDATA[Keep left onto North LaSalle Drive]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.632523,41.887919,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto North Stockton Drive]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.63171,41.91347,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right onto West Fullerton Parkway]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.636058,41.925673,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp left onto North Cannon Drive]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.633621,41.925745,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto West Diversey Parkway]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.639306,41.932916,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto North Sheridan Road]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.639306,41.932916,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto West Sheridan Road]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.644996,41.953061,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto North Broadway]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.649638,41.952749,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left ]]></name>
+<description><![CDATA[Keep left onto North Broadway]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.64961,41.95119,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto West Diversey Parkway]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.644906,41.932798,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto North Clark Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.644906,41.932798,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.638229,41.921904,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto North Sedgwick Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.638938,41.921883,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto West North Avenue]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.638583,41.911164,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto North Wells Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.634697,41.911214,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Merchandise Mart Plaza]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.634,41.888107,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.634119,41.888054,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto West Upper Wacker Drive]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.634094,41.886808,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto North Franklin Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.635415,41.886784,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.635369,41.884272,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.635489,41.884272,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto West Monroe Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.635419,41.880633,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto South Halsted Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.64732,41.880496,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto West Adams Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.647275,41.879212,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto South Damen Avenue]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.676579,41.878744,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.676542,41.877407,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.647355,41.877879,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.647327,41.877859,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto South Halsted Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.647232,41.877859,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto South Halsted Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.647139,41.874737,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto West Taylor Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.64704,41.869543,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto South Loomis Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.661642,41.869336,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.661313,41.857988,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.661427,41.857954,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto West 18th Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.661429,41.857879,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.660996,41.857885,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.660939,41.857962,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.646766,41.85817,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto West 19th Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.64672,41.856724,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto South Halsted Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.64661,41.856726,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.646547,41.854601,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto West 21st Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.647973,41.853926,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left ]]></name>
+<description><![CDATA[Keep left onto South Canalport Avenue]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.648177,41.853923,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.648269,41.853884,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.648268,41.853861,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.650792,41.852707,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.650792,41.852707,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.641816,41.852799,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto West Cermak Road]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.641815,41.852758,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto South Wentworth Avenue]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.632031,41.852788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto South Wentworth Avenue]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.63192,41.848892,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.631592,41.834526,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto South Dearborn Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.627837,41.834597,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto West 33rd Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.627839,41.834662,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto South State Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.626674,41.834684,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto West 35th Street]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.626616,41.831006,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto South Indiana Avenue]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.621754,41.831064,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto East Roosevelt Road]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.62414,41.867398,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto South Indiana Avenue]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.622676,41.867415,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto East Roosevelt Road]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.622559,41.867554,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto South Columbus Drive]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.620415,41.867594,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-87.620526,41.870303,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-87.620526,41.870303,183</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>
