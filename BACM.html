@@ -603,6 +603,35 @@ function initialise_map()  {
   
 
     
+    
+    // Add a source for the line
+    map.addSource('line-source2', {
+        'type': 'geojson',
+        'data': {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'LineString',
+                'coordinates': coordinates.mara  // Your list of coordinates
+            }
+        }
+    });
+
+    // Add a dashed line layer
+    map.addLayer({
+        'id': 'line-layer',
+        'type': 'line',
+        'source': 'line-source2',
+        'layout': {
+            'line-join': 'round',
+            'line-cap': 'round'
+        },
+        'paint': {
+            'line-color': 'black',  // Color of the line
+            'line-width': 3,       // Width of the line
+            'line-dasharray': [3, 2]  // Define the dash pattern (2px line, 4px gap)
+        }
+    });
+
 
 }})
 
